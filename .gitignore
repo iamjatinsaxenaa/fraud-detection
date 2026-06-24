@@ -1,0 +1,7 @@
+myenv/
+venv/
+main.py
+Patients.json
+__pycache__/
+*.pyc
+.env
