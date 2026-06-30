@@ -54,23 +54,24 @@ transactions in real-time, achieving **85% Recall** and **0.9811 ROC-AUC Score**
 ---
 
 ## 📁 Project Structure
+```
 fraud-detection/
 ├── Fraud_Detection_API/
-│   ├── main.py                  # FastAPI application
-│   ├── Schemas.py                # Input data schemas
-│   ├── requirements.txt          # Dependencies
-│   ├── render.yaml               # Render deployment config
-│   ├── fraud_model.pkl           # Base ML model
-│   ├── fraud_model_tuned.pkl     # Tuned ML model
-│   ├── amount_scaler.pkl         # Amount scaler
-│   ├── time_scaler.pkl           # Time scaler
-│   └── feature_names.pkl         # Feature names
+│   ├── main.py
+│   ├── Schemas.py
+│   ├── requirements.txt
+│   ├── render.yaml
+│   ├── fraud_model.pkl
+│   ├── fraud_model_tuned.pkl
+│   ├── amount_scaler.pkl
+│   ├── time_scaler.pkl
+│   └── feature_names.pkl
 │
 └── Fraud-Detection/
-├── models/                   # Saved model files
-├── Fraud_Detection.ipynb     # Model training notebook
-└── README.md
-
+    ├── models/
+    ├── Fraud_Detection.ipynb
+    └── README.md
+```
 
 ## 🚀 API Endpoints
 
